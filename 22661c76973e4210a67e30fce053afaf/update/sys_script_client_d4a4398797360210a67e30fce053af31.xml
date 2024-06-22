@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_device_name</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Show the Section</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (!newValue == '') {
+        g_form.setSectionDisplay('device_details', true);
+        g_form.setSectionDisplay('delivery_details', true);
+
+        g_form.getReference('u_device_name', getDetails);
+    }
+    //Type appropriate comment here, and begin script below
+}
+
+function getDetails(details) {
+    g_form.setValue('u_model', details.model_number);
+    g_form.setValue('u_device_description', details.short_description);
+    g_form.setValue('u_price', details.u_price_2);
+    g_form.setValue('u_warranty_expiration', details.warranty_expiration);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-19 13:33:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4a4398797360210a67e30fce053af31</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Show the Section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Construction Gadgets Squad" source="x_1049429_cgs">22661c76973e4210a67e30fce053afaf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Construction Gadgets Squad">22661c76973e4210a67e30fce053afaf</sys_scope>
+        <sys_update_name>sys_script_client_d4a4398797360210a67e30fce053af31</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 08:31:03</sys_updated_on>
+        <table>x_1049429_cgs_device_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

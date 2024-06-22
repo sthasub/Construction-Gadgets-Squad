@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Order AI Devices">a412ac0c97c70210a67e30fce053af38</cat_item>
+        <cat_variable>IO:25c3e0cc97c70210a67e30fce053afbb</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Field Validation</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var quantity = g_form.getValue('choose_quantity');
+    if (isNaN(quantity)) {
+        alert("Hi! just put the numbers only");
+        g_form.setValue('choose_quantity', '');
+    } else {
+        if (quantity > 3) {
+            g_form.setMandatory('business_justification', true);
+        }else{
+			g_form.setMandatory('business_justification', false);
+		}
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 10:30:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2776c04970b0210a67e30fce053afa7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Field Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Construction Gadgets Squad" source="x_1049429_cgs">22661c76973e4210a67e30fce053afaf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Construction Gadgets Squad">22661c76973e4210a67e30fce053afaf</sys_scope>
+        <sys_update_name>catalog_script_client_b2776c04970b0210a67e30fce053afa7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 10:36:37</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

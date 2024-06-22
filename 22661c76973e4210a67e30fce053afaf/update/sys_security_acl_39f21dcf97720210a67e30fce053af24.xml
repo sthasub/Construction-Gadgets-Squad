@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_1049429_cgs_ai_devices</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1049429_cgs_ai_devices</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-19 11:04:36</sys_created_on>
+        <sys_id>39f21dcf97720210a67e30fce053af24</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1049429_cgs_ai_devices</sys_name>
+        <sys_package display_value="Construction Gadgets Squad" source="x_1049429_cgs">22661c76973e4210a67e30fce053afaf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Construction Gadgets Squad">22661c76973e4210a67e30fce053afaf</sys_scope>
+        <sys_update_name>sys_security_acl_39f21dcf97720210a67e30fce053af24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 03:42:01</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

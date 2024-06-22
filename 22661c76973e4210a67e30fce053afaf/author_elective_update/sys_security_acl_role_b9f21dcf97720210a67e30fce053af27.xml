@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-19 11:04:36</sys_created_on>
+        <sys_id>b9f21dcf97720210a67e30fce053af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1049429_cgs_ai_devices.x_1049429_cgs.ai_devices_user</sys_name>
+        <sys_package display_value="Construction Gadgets Squad" source="x_1049429_cgs">22661c76973e4210a67e30fce053afaf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Construction Gadgets Squad">22661c76973e4210a67e30fce053afaf</sys_scope>
+        <sys_security_acl display_value="x_1049429_cgs_ai_devices">39f21dcf97720210a67e30fce053af24</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b9f21dcf97720210a67e30fce053af27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-19 11:04:36</sys_updated_on>
+        <sys_user_role display_value="x_1049429_cgs.ai_devices_user" name="x_1049429_cgs.ai_devices_user">6df2598f97720210a67e30fce053afa5</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Construction Gadgets Squad">22661c76973e4210a67e30fce053afaf</application>
+        <file_path/>
+        <instance_id>a00fef331b2a711852a243f4bd4bcb82</instance_id>
+        <instance_name>dev222848</instance_name>
+        <name>sys_security_acl_role_b9f21dcf97720210a67e30fce053af27</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-19 11:04:36</sys_created_on><sys_id>b9f21dcf97720210a67e30fce053af27</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1049429_cgs_ai_devices.x_1049429_cgs.ai_devices_user</sys_name><sys_package display_value="Construction Gadgets Squad" source="x_1049429_cgs">22661c76973e4210a67e30fce053afaf</sys_package><sys_policy/><sys_scope display_value="Construction Gadgets Squad">22661c76973e4210a67e30fce053afaf</sys_scope><sys_security_acl display_value="x_1049429_cgs_ai_devices">39f21dcf97720210a67e30fce053af24</sys_security_acl><sys_update_name>sys_security_acl_role_b9f21dcf97720210a67e30fce053af27</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-19 11:04:36</sys_updated_on><sys_user_role display_value="x_1049429_cgs.ai_devices_user" name="x_1049429_cgs.ai_devices_user">6df2598f97720210a67e30fce053afa5</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>594892357</payload_hash>
+        <record_name>x_1049429_cgs_ai_devices.x_1049429_cgs.ai_devices_user</record_name>
+        <reverted_from/>
+        <source>7bd5643a977e4210a67e30fce053af4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-19 11:04:36</sys_created_on>
+        <sys_id>b5f21dcf97720210a67e30fce053af2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190302b85540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-19 11:04:36</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b9f21dcfaf7202107c285ff7f53c2e29</update_guid>
+        <update_guid_history>b9f21dcfaf7202107c285ff7f53c2e29:594892357</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1049429_cgs_ai_devices.x_1049429_cgs.ai_devices_user">296a07ff97320210a67e30fce053afb3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-22 03:41:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1706d7a372834e0e8383afa6899d70f1</sys_id>
+        <sys_metadata>b9f21dcf97720210a67e30fce053af27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1049429_cgs_ai_devices.x_1049429_cgs.ai_devices_user</sys_name>
+        <sys_package display_value="Construction Gadgets Squad" source="x_1049429_cgs">22661c76973e4210a67e30fce053afaf</sys_package>
+        <sys_parent display_value="x_1049429_cgs_ai_devices">39f21dcf97720210a67e30fce053af24</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Construction Gadgets Squad">22661c76973e4210a67e30fce053afaf</sys_scope>
+        <sys_scope_delete display_value="">04b00e55b5e546358b028534f10988d9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_b9f21dcf97720210a67e30fce053af27</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_b9f21dcf97720210a67e30fce053af27">b5f21dcf97720210a67e30fce053af2a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-22 03:41:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

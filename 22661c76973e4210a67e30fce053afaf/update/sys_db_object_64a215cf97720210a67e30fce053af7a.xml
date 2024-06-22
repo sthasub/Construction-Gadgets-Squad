@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>AI Devices</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1049429_cgs_ai_devices</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Configuration Item" name="cmdb_ci">229d6d9e8d30021087de63ac7f1f00ce</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-19 11:04:36</sys_created_on>
+        <sys_id>64a215cf97720210a67e30fce053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Devices</sys_name>
+        <sys_package display_value="Construction Gadgets Squad" source="x_1049429_cgs">22661c76973e4210a67e30fce053afaf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Construction Gadgets Squad">22661c76973e4210a67e30fce053afaf</sys_scope>
+        <sys_update_name>sys_db_object_64a215cf97720210a67e30fce053af7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-19 11:04:36</sys_updated_on>
+        <u_pilot>false</u_pilot>
+        <update_access>false</update_access>
+        <user_role display_value="x_1049429_cgs.ai_devices_user" name="x_1049429_cgs.ai_devices_user">6df2598f97720210a67e30fce053afa5</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
